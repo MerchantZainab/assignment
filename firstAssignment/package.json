@@ -1,0 +1,21 @@
+{
+  "name": "firstassignment",
+  "version": "0.0.1",
+  "description": "this is node first assignment",
+  "main": "login.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "init": "^0.1.2",
+    "node-dev": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "first"
+  ],
+  "author": "zainab",
+  "license": "MIT"
+}

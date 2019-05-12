@@ -6,33 +6,32 @@
     <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" />
     <meta charset="utf-8">
 
-    <title>Introduction to Countries</title>
+    <title>My TODO LIST</title>
 
     <link rel="stylesheet" href="/css/style.css" />
 
 </head>
 
 <body>
-
     <h1>Introduction to Countries</h1>
     <dl></dl>
     <p>List Empty</p>
-
-    
-        <form class="form">
-            <input type="text" id="country" name="name" placeholder="new item"  />
+    <form class="form">
+            <input type="text" id="item" name="item" placeholder="new item"  />
             <input type="text" name="desc" id="desc" placeholder="new description"  />
             <input type="date" name="date" id="date"  />
-            <select name="" id="">
+            <select name="priority" id="priority">
                 <option value="">--Please choose your Priority--</option>
                 <option value="immediate">immediate</option>
                 <option value="high">high</option>
                 <option value="low">low</option>
             </select>
-            <button>Add Country</button>
+            <button>Add list</button>
         </form>
     
-        <script src="../js/file.js"></script>
+        <!-- <script type="module" src="../js/file.js"></script> -->
+        <script src="/js/jquery.min.js"></script>
+    <script src="/js/list.js"></script>
 
 </body>
 
