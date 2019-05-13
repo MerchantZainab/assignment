@@ -1,33 +1,32 @@
 [
   {
     "item": "item1",
-    "description": "item1 description",
-    "due-date": "2-1-2019",
-    "priority": "immediate",
-    "status": "false"
-  },
-  {
-    "item": "item2",
-    "description": "item2 description",
-    "due-date": "12-1-2019",
-    "priority": "high",
-    "status": "false"
+    "description": "new description",
+    "priority": "high"
   },
   {
     "item": "item3",
-    "description": "item3 description"
+    "description": "item2 des",
+    "priority": ""
   },
   {
-    "item": "item4",
-    "description": "item4 description"
+    "item": "item3",
+    "description": "new description",
+    "priority": ""
   },
   {
-    "item": "item5",
-    "description": "new description"
-  },
-  {
-    "item": "item6",
+    "item": "item1",
     "description": "hsgaj",
-    "priority": "low"
+    "priority": ""
+  },
+  {
+    "item": "item3",
+    "description": "new description",
+    "priority": ""
+  },
+  {
+    "item": "ITEM 12",
+    "description": "",
+    "priority": ""
   }
 ]

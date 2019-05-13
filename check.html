@@ -1,0 +1,35 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Login</title>    
+        <script>
+                function addItem(){
+        var ul = document.getElementById('ul'); //ul
+        var li = document.createElement('li');//li
+        
+        var checkbox = document.createElement('input');
+            checkbox.type = "checkbox";
+            checkbox.value = 1;
+            checkbox.name = "todo[]";
+        
+        li.appendChild(checkbox);
+        
+        var text = document.getElementById('texto');
+        li.appendChild(document.createTextNode(text.value));
+        ul.appendChild(li); 
+}
+    var button = document.getElementById('btn');
+    // button.onclick = addItem  ;
+        </script>
+    </head>
+    <body>
+            <button type="button" id="btn" onclick="addItem()">my Item</button>
+            <input type="text" id="texto">
+            <ul id="ul">
+            
+            
+            </ul>
+        
+    </body>
+</html>
