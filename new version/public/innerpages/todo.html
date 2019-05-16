@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8">
+
+    <title>My TODO LIST</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+</head>
+
+<body>
+    <h1>TODO LIST</h1>
+   
+    <form class="form">
+        <input type="text" id="item" name="item" placeholder="new item"  />
+        <input type="text" name="desc" id="desc" placeholder="new description"  />
+        <input type="date" name="date" id="date"  />
+        <select name="priority" id="priority">
+            <option value="">--Please choose your Priority--</option>
+            <option value="immediate">immediate</option>
+            <option value="high">high</option>
+            <option value="low">low</option>
+        </select>
+        <button class="add-list">Add list</button>
+        
+</form>
+    <table>
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>Name</th>
+                <th>description</th>
+                <th>priority</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+            
+        </tbody>
+    </table>
+
+    
+    
+    
+        <!-- <script type="module" src="../js/file.js"></script> -->
+        <script src="/js/jquery.min.js"></script>
+    <script src="/js/list.js"></script>
+    <script>
+
+        // var ckbox = $('#checkbox');
+        // $('input').on('click',function () {
+        //     if ($('#checkbox').prop('checked', true)) {
+        //         alert('You have Checked it');
+        //     } else {
+        //         alert('You Un-Checked it');
+        //     }
+        // });
+    </script>
+</body>
+
+</html>

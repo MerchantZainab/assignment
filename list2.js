@@ -26,6 +26,7 @@ function printCountries(terms) {
         delButton.type="button";
         delButton.id="del";
         delButton.name="del";
+        delButton.className="close";
         delButton.value="Delete Me";
         
         li.appendChild(checkbox);
@@ -37,18 +38,39 @@ function printCountries(terms) {
         ul.appendChild(li); 
 
     });
-    // $('li').off('#del').click(function() {
-    //     $.ajax({
-    //         url: '/list-api/' + $(this).text(),
-    //         type: 'DELETE',
-    //         success: printCountries
-    //     });
-    // });
+
+    $('').off('dblclick').dblclick(function() {
+        $.ajax({
+            url: '/list-api/' + $(this).text(),
+            type: 'DELETE',
+            success: printCountries
+        });
+    });
+
+    
+
+   // Click on a close button to hide the current list item
+// var close = document.getElementsByClassName("close");
+// var i;
+// for (i = 0; i < close.length; i++) {
+//   close[i].onclick = function() {
+//     var div = this.parentElement;
+//     div.remove();
+//     $.ajax({
+//                 url: '/list-api/' + $(this).text(),
+//                 type: 'DELETE',
+//                 success: printCountries
+//             });
+//   }
+// }
+
 }
+
+
+    
 
 
 $("#isCheck").click(function () {
 	alert($('input:checkbox[name=checkme]').is(':checked'));		
     });
 });
-

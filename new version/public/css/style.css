@@ -45,46 +45,23 @@ body {
         -ms-flex-align: center;
             align-items: center;
 }
+table {
 
-.dl_div {
-
-    border: double;
-    padding: 1em;
-    display: block;
-    width: 80%;
-    display: flex;
+    margin-top:20px; 
+   
 }
 
-.dl_div + p {
-    display: none;
-
-}
-
-.dl_div:empty {
+.tbody + p {
     display: none;
 }
 
-.dl_div:empty + p {
+.tbody:empty {
+    display: none;
+}
+
+.tbody:empty + p {
     color: red;
     display: block;
-    
-}
-
-dt:hover {
-    color: red;
-    cursor: pointer;
-}
-
-dt {
-    font-family: fantasy;
-    font-size: 1.5em;
-    color: darkslateblue
-}
-
-dd {
-    font-family: verdana;
-    margin: 0 0 10px 55px;
-    font-size: 1em;
 }
 
 .form  {
@@ -149,4 +126,19 @@ ul li{
 #del
 {
     margin: 10px;
+}
+
+
+
+table{
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid #cdcdcd;
+}
+table th, table td{
+    padding: 10px;
+    text-align: left;
 }
