@@ -48,7 +48,9 @@ body {
 table {
 
     margin-top:20px; 
-   
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;   
 }
 
 .tbody + p {
@@ -122,19 +124,6 @@ ul li{
 }
 /* todo list css ends */
 
-
-#del
-{
-    margin: 10px;
-}
-
-
-
-table{
-    width: 100%;
-    margin-bottom: 20px;
-    border-collapse: collapse;
-}
 table, th, td{
     border: 1px solid #cdcdcd;
 }

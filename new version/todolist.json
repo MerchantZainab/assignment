@@ -1,22 +1,14 @@
 [
   {
-    "item": "item2",
-    "description": "item2 description",
-    "priority": "immediate"
-  },
-  {
-    "item": "item3",
-    "description": "item2 description",
-    "priority": "immediate"
-  },
-  {
     "item": "item1",
-    "description": "item2 description",
-    "priority": "immediate"
+    "description": "",
+    "priority": "",
+    "status": "pending"
   },
   {
-    "item": "item4",
-    "description": "item2 description",
-    "priority": "immediate"
+    "item": "item15",
+    "description": "",
+    "priority": "",
+    "status": "pending"
   }
 ]

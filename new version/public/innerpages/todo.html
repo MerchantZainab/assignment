@@ -16,7 +16,7 @@
     <h1>TODO LIST</h1>
    
     <form class="form">
-        <input type="text" id="item" name="item" placeholder="new item"  />
+        <input type="text" name="item" id="item" placeholder="new item"  />
         <input type="text" name="desc" id="desc" placeholder="new description"  />
         <input type="date" name="date" id="date"  />
         <select name="priority" id="priority">
@@ -26,13 +26,20 @@
             <option value="low">low</option>
         </select>
         <button class="add-list">Add list</button>
+        <select name="priority" id="priority">
+            <option value="">--Fetch list --</option>
+            <option value="default">Default</option>
+            <option value="completed">Completed</option>
+            <option value="all">All</option>
+        </select>
+       
         
-</form>
-    <table>
+</form id='addToDo'>
+    <table class="table">
         <thead>
             <tr>
                 <th>Select</th>
-                <th>Name</th>
+                <th>item</th>
                 <th>description</th>
                 <th>priority</th>
                 <th>Action</th>
